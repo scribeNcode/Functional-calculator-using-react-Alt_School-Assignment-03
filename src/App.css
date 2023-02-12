@@ -1,0 +1,121 @@
+.container{
+  background-color: whitesmoke;
+  width: 350px;
+  border-radius: 15px;
+  margin: 2% auto;
+  box-shadow: -1px 8px 15px 3px 
+grey;
+  padding: 1%;
+  height: fit-content;
+}
+
+
+.display{
+  width: 97%;
+  height: 150px;
+ margin: 5% 1.5%;
+  border: 1px;
+  border-radius: 15px;
+  color: 
+#810909;
+  overflow: auto;
+  background-color: 
+#bababa;
+  box-shadow: inset 1px 3px 9px  
+grey;
+  word-wrap: break-word;
+  word-break: break-all;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+    
+}
+
+span{
+  align-self: flex-end;
+ font-size: x-large;
+   text-align: right;
+}
+
+.results{
+  padding: 2%;
+  font-size: xx-large;
+  opacity: 0.1;
+}
+  
+  
+            /* btn styling*/
+  
+.btn-div{
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap: 1rem;
+  margin: 6.6%;
+   margin: 5% 2%;
+  width: 97%;
+  
+}
+
+.btns{
+  width: 100%;
+  height: 65px;
+  font-size: medium;
+  font-weight : 900;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px -8px 
+#c4c4c4;
+   color: white;
+  background-color: black;
+  
+}
+
+
+.btns:active{
+   box-shadow: inset 0px 8px 15px -8px 
+#c4c4c4;
+}
+
+.clean{
+  border: 1px 5px solid;
+  color: 
+white;
+  font-size: x-large;
+  background-color: 
+red;
+    
+  grid-column:  span 2;
+}
+
+.clear:active{
+   box-shadow: inset 0px 8px 15px -8px 
+#626060;
+    
+}
+
+.equals{
+  color: 
+white;
+  font-size: x-large;
+  background-color: 
+black;
+  grid-column: span 2;
+}
+
+.equals:active{
+   box-shadow: inset 0px 8px 15px -8px 
+#566764;
+}
+
+h3{
+  text-align: center;
+ 
+}
+
+.rmv{
+  background-color: red;
+  color: white;
+}
+
+
